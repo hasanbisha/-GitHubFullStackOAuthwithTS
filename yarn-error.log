@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add redux react-redux axios redux-thunk
+
+PATH: 
+  /home/xhulio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/media/xhulio/JobDrive/Projects/full-stack-apps/gitHubAOUTHwithTS/node_modules/mongoose/node_modules/safe-buffer'
+
+npm manifest: 
+  {
+    "name": "gitHubAOUTHwithTS",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "tsc": "tsc",
+      "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+      "prod": "tsc && node ./build/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@types/dotenv": "^6.1.1",
+      "@types/express": "^4.17.0",
+      "@types/jsonwebtoken": "^8.3.2",
+      "@types/mongoose": "^5.5.11",
+      "@types/node": "^12.6.8",
+      "axios": "^0.19.0",
+      "dotenv": "^8.0.0",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.6.7",
+      "ts-node-dev": "^1.0.0-pre.40",
+      "typescript": "^3.5.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
